@@ -52,7 +52,7 @@
 #     from: 0xNNN                 # Source code for remapper or merge tool
 #     code: 0xNNN                 # Symbol code 0x - hex
 #     css: icon-gpyph1-name       # For generated CSS
-#     search: [word1, word2]      # Search aliases (array). CSS name will be
+#     search: [word1, word2, weather]      # Search aliases (array). CSS name will be
 #                                 # included automatically
 #     src: first_font_alias       # alias to font for merge tool
 #                                 # list of aliases in src_fonts section
@@ -106,50 +106,50 @@ font:
 
 glyphs:
   -
-    css: '21'
+    css: windy-rain-inv
     code: 0x21
     uid: b69ac48f8ad98e786047ff3d33101045
-    search: []
+    search: [windy, rain, weather]
   -
-    css: '22'
+    css: snow-inv
     code: 0x22
     uid: 87cf185e0420ff98e04406c0fbb873eb
-    search: []
+    search: [snow, weather]
   -
-    css: '23'
+    css: snow-heavy-inv
     code: 0x23
     uid: f1315f7ea135cbea7966cce0e7c10ce0
-    search: []
+    search: [snow, weather]
   -
     css: hail-inv
     code: 0x24
     uid: ab5c31256cdd1f6b2d6de7202936f5a1
-    search: [hail]
+    search: [hail, weather]
   -
     css: clouds-inv
     code: 0x25
     uid: 8f1bbb4667a8372dc4bb7de767f22f11
-    search: []
+    search: [clouds, weather]
   -
     css: clouds-flash-inv
     code: 0x26
     uid: b2b73369982f91cddf8ec5f2a692e5ea
-    search: [clouds, flash]
+    search: [clouds, flash, weather]
   -
     css: temperature
     code: 0x27
     uid: 906a8ebb0faf8db0411028a0364bb16d
-    search: [temperature]
+    search: [temperature, weather]
   -
     css: compass
     code: 0x28
     uid: a6a5b2ea227f86157ba54ae543785161
-    search: [compass]
+    search: [compass, weather]
   -
     css: na
     code: 0x29
     uid: 053a1eaf96184e74876f45bd0f4970eb
-    search: [not available]
+    search: [not available, weather]
   -
     css: celcius
     code: 0x2a
@@ -159,184 +159,184 @@ glyphs:
     css: fahrenheit
     code: 0x2b
     uid: 5478f7c5cc0ad4897835f711eccea4dd
-    search: [fahrenheit]
+    search: [fahrenheit, weather]
   -
-    css: '30'
+    css: clouds-flash-alt
     code: 0x30
     uid: d05dd160c24e53afc4addd30b5655b74
-    search: []
+    search: [clouds, flash, weather]
   -
     css: sun-inv
     code: 0x31
     uid: c1306ee779029bed4f5a2b9b4f5c79e8
-    search: [sun]
+    search: [sun, weather]
   -
     css: moon-inv
     code: 0x32
     uid: 2adfda136b09532bd8174b025b67fe87
-    search: [moon]
+    search: [moon, weather]
   -
-    css: '33'
+    css: cloud-sun-inv
     code: 0x33
     uid: 2c304ff49075ec9647f498504651abf5
-    search: []
+    search: [cloud, sun, weather]
   -
-    css: '34'
+    css: cloud-moon-inv
     code: 0x34
     uid: c823149b79158a2bd56d802a6a6f1d1c
-    search: []
+    search: [cloud, moon, weather]
   -
     css: cloud-inv
     code: 0x35
     uid: 7162ef3c04c51e39b8670cfedb15bcc3
-    search: [cloud]
+    search: [cloud, weather]
   -
-    css: '36'
+    css: cloud-flash-inv
     code: 0x36
     uid: 4bc859f73783486400fc769a90d0a8e0
-    search: []
+    search: [cloud, flash, weather]
   -
     css: drizzle
     code: 0x37
     uid: 92234661a134ed625a779c534b242b3d
-    search: [rain, drizzle]
+    search: [rain, drizzle, weather]
   -
     css: rain
     code: 0x38
     uid: 8d8a2d9bcc41c7ac794e83ffbb919c3c
-    search: [rain, drizzle]
+    search: [rain, drizzle, weather]
   -
-    css: '39'
+    css: windy-inv
     code: 0x39
     uid: be6c21cbc48e60a39e80f8b2c33e360e
-    search: []
+    search: [windy, weather]
   -
-    css: '41'
+    css: sunrise
     code: 0x41
     uid: 1c2a34e8bd2f8a53e3b059447a8e544f
-    search: []
+    search: [sun, sunrise, weather]
   -
     css: sun
     code: 0x42
     uid: 95fb2e5fdd1ea7e4a420b6ed330e6b08
-    search: [sun]
+    search: [sun, weather]
   -
     css: moon
     code: 0x43
     uid: 34e68aa8fbf61f02a748043ccf448a3b
-    search: [moon]
+    search: [moon, weather]
   -
-    css: '44'
+    css: eclipse
     code: 0x44
     uid: 48ab39ab0ba664052cfbf0e52563246a
-    search: []
+    search: [eclipse, weather]
   -
-    css: '45'
+    css: mist
     code: 0x45
     uid: a555120b3743d482efcc3058733d3fd9
-    search: []
+    search: [mist, fog, weather]
   -
     css: wind
     code: 0x46
     uid: 2efb5347832a09ae69de043f897ec4b9
-    search: [wind]
+    search: [wind, weather]
   -
     css: snowflake
     code: 0x47
     uid: d0c325468a74095e565664bec2623aa3
-    search: [snowflake]
+    search: [snowflake, weather]
   -
-    css: '48'
+    css: cloud-sun
     code: 0x48
     uid: 9cd3e294ca3ad3dda66bc5a804021c46
-    search: []
+    search: [cloud, sun, weather]
   -
-    css: '49'
+    css: cloud-moon
     code: 0x49
     uid: 2440f961b415837c6bf30424a6711708
-    search: []
+    search: [cloud, moon, weather]
   -
-    css: 4a
+    css: fog-sun
     code: 0x4a
     uid: 957fd72e52a0e9eb585a0361114c4c83
-    search: []
+    search: [fog, sun, weather]
   -
-    css: 4b
+    css: fog-moon
     code: 0x4b
     uid: dbf0f9c3d15e5e8046bb5f5fb5898b49
-    search: []
+    search: [fog, moon, weather]
   -
-    css: 4c
+    css: fog-cloud
     code: 0x4c
     uid: aba39b610b88a73d81f0fa683649b92d
-    search: []
+    search: [fog, cloud, weather]
   -
-    css: 4d
+    css: fog
     code: 0x4d
     uid: 2ca5a006e414e0827f7fc5b187689c04
-    search: []
+    search: [fog, weather]
   -
     css: cloud
     code: 0x4e
     uid: 17463471d0f132cee16835507ea51ecf
-    search: [cloud]
+    search: [cloud, weather]
   -
-    css: 4f
+    css: cloud-flash
     code: 0x4f
     uid: cc1179bd34dcbe7bf80785075af60d37
-    search: []
+    search: [cloud, flash, weather]
   -
-    css: '50'
+    css: cloud-flash-alt
     code: 0x50
     uid: 9af2b75a89bd99b83457f041df26da8b
-    search: []
+    search: [cloud, flash, weather]
   -
     css: drizzle
     code: 0x51
     uid: f59875f40cbc5ad1b04775cd96feabf1
-    search: [rain, drizzle]
+    search: [rain, drizzle, weather]
   -
     css: rain
     code: 0x52
     uid: d577552bb94bdeb53e6517873481aeea
-    search: [rain, drizzle]
+    search: [rain, drizzle, weather]
   -
-    css: '53'
+    css: windy
     code: 0x53
     uid: 5fad7d41511701337ddd5ad9896edc4b
-    search: []
+    search: [windy, weather]
   -
-    css: '54'
+    css: windy-rain
     code: 0x54
     uid: 86351391d6cbc7a85730414294139661
-    search: []
+    search: [windy, rain, weather]
   -
-    css: '55'
+    css: snow
     code: 0x55
     uid: 127ed05f3c024a9c73487f18cf3d530d
-    search: []
+    search: [snow, weather]
   -
-    css: '56'
+    css: snow-alt
     code: 0x56
     uid: 02bb2eaa1515b8fc954abbaf80212739
-    search: []
+    search: [snow, weather]
   -
-    css: '57'
+    css: snow-heavy
     code: 0x57
     uid: 0f6059e468716a93329821bcbf11220d
-    search: []
+    search: [snow, weather]
   -
     css: hail
     code: 0x58
     uid: b500010a53f4807828ac252725dc6fd1
-    search: [hail]
+    search: [hail, weather]
   -
     css: clouds
     code: 0x59
     uid: b215adc51ca2aa37e7bbe244d1fa52cc
-    search: [clouds]
+    search: [clouds, weather]
   -
     css: clouds-flash
     code: 0x5a
     uid: f4c428e42b86673278e98e6f2e0a8cd2
-    search: [clouds, flash]
+    search: [clouds, flash, weather]
