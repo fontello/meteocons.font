@@ -121,20 +121,20 @@ glyphs:
     uid: f1315f7ea135cbea7966cce0e7c10ce0
     search: []
   -
-    css: hail-black
+    css: hail-inv
     code: 0x24
     uid: ab5c31256cdd1f6b2d6de7202936f5a1
     search: [hail]
   -
-    css: '25'
+    css: clouds-inv
     code: 0x25
     uid: 8f1bbb4667a8372dc4bb7de767f22f11
     search: []
   -
-    css: '26'
+    css: clouds-flash-inv
     code: 0x26
     uid: b2b73369982f91cddf8ec5f2a692e5ea
-    search: []
+    search: [clouds, flash]
   -
     css: temperature
     code: 0x27
@@ -146,32 +146,32 @@ glyphs:
     uid: a6a5b2ea227f86157ba54ae543785161
     search: [compass]
   -
-    css: '29'
+    css: na
     code: 0x29
     uid: 053a1eaf96184e74876f45bd0f4970eb
-    search: []
+    search: [not available]
   -
-    css: 2a
+    css: celcius
     code: 0x2a
     uid: 39a24b1eb625a4a551585745107e8ef0
-    search: []
+    search: [celcius]
   -
-    css: 2b
+    css: fahrenheit
     code: 0x2b
     uid: 5478f7c5cc0ad4897835f711eccea4dd
-    search: []
+    search: [fahrenheit]
   -
     css: '30'
     code: 0x30
     uid: d05dd160c24e53afc4addd30b5655b74
     search: []
   -
-    css: sun-black
+    css: sun-inv
     code: 0x31
     uid: c1306ee779029bed4f5a2b9b4f5c79e8
     search: [sun]
   -
-    css: moon-black
+    css: moon-inv
     code: 0x32
     uid: 2adfda136b09532bd8174b025b67fe87
     search: [moon]
@@ -186,7 +186,7 @@ glyphs:
     uid: c823149b79158a2bd56d802a6a6f1d1c
     search: []
   -
-    css: cloud-black
+    css: cloud-inv
     code: 0x35
     uid: 7162ef3c04c51e39b8670cfedb15bcc3
     search: [cloud]
@@ -331,12 +331,12 @@ glyphs:
     uid: b500010a53f4807828ac252725dc6fd1
     search: [hail]
   -
-    css: '59'
+    css: clouds
     code: 0x59
     uid: b215adc51ca2aa37e7bbe244d1fa52cc
-    search: []
+    search: [clouds]
   -
-    css: 5a
+    css: clouds-flash
     code: 0x5a
     uid: f4c428e42b86673278e98e6f2e0a8cd2
-    search: []
+    search: [clouds, flash]
