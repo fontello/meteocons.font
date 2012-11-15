@@ -80,7 +80,6 @@ meta:
   email: info@alessioatzeni.com
   twitter: http://twitter.com/bluxart
   dribbble: http://dribbble.com/Bluxart
-  github: https://github.com/danielbruce/entypo
   license: SIL
   license_url: http://scripts.sil.org/OFL
 
@@ -196,12 +195,12 @@ glyphs:
     uid: 4bc859f73783486400fc769a90d0a8e0
     search: [cloud, flash, weather]
   -
-    css: drizzle
+    css: drizzle-inv
     code: 0x37
     uid: 92234661a134ed625a779c534b242b3d
     search: [rain, drizzle, weather]
   -
-    css: rain
+    css: rain-inv
     code: 0x38
     uid: 8d8a2d9bcc41c7ac794e83ffbb919c3c
     search: [rain, drizzle, weather]

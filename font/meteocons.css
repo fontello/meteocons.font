@@ -46,8 +46,8 @@
 .icon-cloud-moon-inv:before { content: "\34"; } /* '\34' */
 .icon-cloud-inv:before { content: "\35"; } /* '\35' */
 .icon-cloud-flash-inv:before { content: "\36"; } /* '\36' */
-.icon-drizzle:before { content: "\37"; } /* '\37' */
-.icon-rain:before { content: "\38"; } /* '\38' */
+.icon-drizzle-inv:before { content: "\37"; } /* '\37' */
+.icon-rain-inv:before { content: "\38"; } /* '\38' */
 .icon-windy-inv:before { content: "\39"; } /* '\39' */
 .icon-sunrise:before { content: "\41"; } /* '\41' */
 .icon-sun:before { content: "\42"; } /* '\42' */
